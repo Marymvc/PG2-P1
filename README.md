@@ -13,44 +13,49 @@ Se incluyen dos tipos de calculadoras:
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/usuario/tu-repositorio.git
+git clone https://github.com/Marymvc/PG2-P1.git
 cd tu-repositorio
-
+```
 2. Crear un entorno virtual:
 
+```
 bash
 Copiar
 Editar
 python -m venv env
+```
 
 3. Activar el entorno virtual:
 
 En Windows:
-
+```
 bash
 Copiar
 Editar
 .\env\Scripts\activate
+```
 En Linux o Mac:
-
+```
 bash
 Copiar
 Editar
 source env/bin/activate
-
+```
 4. Ejecutar el script principal:
-
+```
 bash
 Copiar
 Editar
 python main.py
+```
 
 5. Desactivar el entorno virtual:
-
+```
 bash
 Copiar
 Editar
 deactivate
+```
 
 ## Implementación - Calculadora Estándar
 Este módulo define una clase Calculadora con los métodos:
@@ -64,7 +69,7 @@ multiplicar(a, b)
 dividir(a, b)
 
 Ejemplo de uso:
-
+```
 python
 Copiar
 Editar
@@ -76,7 +81,7 @@ print(calculadora.sumar(10, 5))
 print(calculadora.restar(10, 5))
 print(calculadora.multiplicar(10, 5))
 print(calculadora.dividir(10, 5))
-
+```
 ## Implementación - Calculadora Factorial
 
 La clase CalculadoraFactorial hereda de Calculadora y agrega un método para calcular el factorial de un número entero.
